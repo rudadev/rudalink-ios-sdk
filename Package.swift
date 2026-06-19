@@ -2,7 +2,7 @@
 import PackageDescription
 
 // 배포용 Package.swift — Static xcframework binaryTarget
-// 버전: 1.0.2
+// 버전: 1.0.3
 
 let package = Package(
     name: "RudaLinkSDK",
@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RudaLinkSDK",
-            url: "https://github.com/rudadev/rudalink-ios-sdk/releases/download/1.0.2/RudaLinkSDK-1.0.2.zip",
-            checksum: "a19e0cc43979263f9f9f32763938b6b25d7c79e6cd3ef1316c5298ea697e4f0d"
+            url: "https://github.com/rudadev/rudalink-ios-sdk/releases/download/1.0.3/RudaLinkSDK-1.0.3.zip",
+            checksum: "049f59972e2600e8adc4c5f1beac391e0e00542f30e9a902d706c97d66877b83"
         ),
     ]
 )
